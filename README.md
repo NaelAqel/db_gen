@@ -83,6 +83,11 @@ Clone the repository:
 git clone https://github.com/NaelAqel/db_gen.git
 cd db_gen
 ```
+OR if you want the script file only run this
+```bash
+!wget https://raw.githubusercontent.com/NaelAqel/db_gen/refs/heads/main/db_gen.py
+```
+
 Requires **Python 3.8+**.  
 No need to manually install dependencies — the script will install them automatically.
 
