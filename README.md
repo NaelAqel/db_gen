@@ -112,7 +112,7 @@ python db_gen.py
 
 ### 2. Quick mode (small datasets for instant testing)
 ```bash
-python dataset_generator.py --quick
+python db_gen.py --quick
 ```
 **Quick mode sizes:**
 | Dataset         | Rows  |
@@ -127,7 +127,7 @@ python dataset_generator.py --quick
 
 ### 3. Custom mode (set your own sizes and output folder)
 ```bash
-python dataset_generator.py \
+python db_gen.py \
     --customers 5000 \
     --products 300 \
     --orders 2000 \
